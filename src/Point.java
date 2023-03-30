@@ -52,7 +52,7 @@ public class Point implements Comparable{
                 return (this.getX() + this.getY()) - (p.getX() + p.getY());
             }
         }
-        return 0;
+        return 1;
     }
 
     @Override
